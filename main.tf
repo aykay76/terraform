@@ -7,5 +7,5 @@ data "local_file" "foo" {
 }
 
 output "content" {
-  value = local_file.foo.content
+  value = data.local_file.foo.content
 }
